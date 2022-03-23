@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="7dp">
+
+    <RelativeLayout
+        android:id="@+id/choce_button"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="@drawable/strock"
+
+
+
+
+        >
+
+        <ImageView
+            android:id="@+id/bus_img"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_baseline_image_24"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/bus_img"
+            android:text="Bus Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
